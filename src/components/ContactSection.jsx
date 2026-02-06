@@ -81,7 +81,7 @@ const ContactSection = () => {
                   id="name"
                   name="name"
                   required
-                  className="w-full  px-4 py-4 rounded-md border border-input bg-background focus:outline-hidden focus:ring-2 focus:ring-primary "
+                  className="w-90  px-4 py-4 rounded-md border border-input bg-background focus:outline-hidden focus:ring-2 focus:ring-primary "
                   placeholder="example name"
                 />
               </div>
@@ -94,7 +94,7 @@ const ContactSection = () => {
                   id="email"
                   name="email"
                   required
-                  className="w-full  px-4 py-4 rounded-md border border-input bg-background focus:outline-hidden focus:ring-2 focus:ring-primary "
+                  className="w-90  px-4 py-4 rounded-md border border-input bg-background focus:outline-hidden focus:ring-2 focus:ring-primary "
                   placeholder="example@email.com"
                 />
               </div>
@@ -106,14 +106,14 @@ const ContactSection = () => {
                   id="message"
                   name="message"
                   required
-                  className="w-full  px-4 py-4 rounded-md border border-input bg-background focus:outline-hidden focus:ring-2 focus:ring-primary  resize-none"
+                  className="w-90  px-4 py-4 rounded-md border border-input bg-background focus:outline-hidden focus:ring-2 focus:ring-primary  resize-none"
                   placeholder="hello, i would like to talk about..."
                 />
               </div>
               <button
                 type="submit"
                 className={cn(
-                  "cosmic-button ml-9 w-full flex items-center justify-center gap-2 mb-3",
+                  "cosmic-button ml-9 w-90 flex items-center justify-center gap-2 mb-3",
                 )}
               >
                 Send Message
