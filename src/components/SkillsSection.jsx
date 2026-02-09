@@ -10,7 +10,6 @@ const skills = [
   { name: "Bootstrap", level: 70, category: "frontend" },
   { name: "Tailwind CSS", level: 70, category: "frontend" },
   { name: "JavaSwing", level: 65, category: "frontend" },
-  { name: "Redux", level: 75, category: "frontend" },
 
   //==== backend skills
   { name: "Java", level: 80, category: "backend" },
@@ -20,15 +19,15 @@ const skills = [
   { name: "Express.js", level: 75, category: "backend" },
   { name: "Laravel", level: 75, category: "backend" },
   { name: "MongoDB", level: 75, category: "backend" },
-  { name: "MySQL", level: 80, category: "backend" },
-  { name: "OracleDB", level: 80, category: "backend" },
+  { name: "MySQL", level: 85, category: "backend" },
+  { name: "Oracledb", level: 80, category: "backend" },
+  { name: "PlSQL", level: 85, category: "backend" },
 
   //==== Tools and IDEs
   { name: "Git/GitHub", level: 80, category: "tools" },
   { name: "Docker", level: 65, category: "tools" },
-  { name: "Xampp", level: 70, category: "tools" },
+  { name: "Figma", level: 75, category: "tools" },
   { name: "VS Code", level: 85, category: "tools" },
-  { name: "Postman", level: 75, category: "tools" },
   { name: "Eclipse", level: 75, category: "tools" },
   { name: "NetBeans", level: 70, category: "tools" },
   { name: "WordPress", level: 70, category: "tools" },
