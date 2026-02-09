@@ -67,7 +67,7 @@ const ContactSection = () => {
               </div>
             </div>
           </div>
-          <div className="hidden md:bg-card p-3 rounded-lg shadow-xs ">
+          <div className="hidden md:block bg-card p-3 rounded-lg shadow-xs ">
             <h3 className="text-2xl font-semibold mb-6 text-center text-primary">
               Send a Message
             </h3>
@@ -81,7 +81,7 @@ const ContactSection = () => {
                   id="name"
                   name="name"
                   required
-                  className="w-90  px-4 py-4 rounded-md border border-input bg-background focus:outline-hidden focus:ring-2 focus:ring-primary "
+                  className="w-full  px-4 py-4 rounded-md border border-input bg-background focus:outline-hidden focus:ring-2 focus:ring-primary "
                   placeholder="example name"
                 />
               </div>
@@ -94,7 +94,7 @@ const ContactSection = () => {
                   id="email"
                   name="email"
                   required
-                  className="w-90  px-4 py-4 rounded-md border border-input bg-background focus:outline-hidden focus:ring-2 focus:ring-primary "
+                  className="w-full  px-4 py-4 rounded-md border border-input bg-background focus:outline-hidden focus:ring-2 focus:ring-primary "
                   placeholder="example@email.com"
                 />
               </div>
@@ -106,14 +106,14 @@ const ContactSection = () => {
                   id="message"
                   name="message"
                   required
-                  className="w-90  px-4 py-4 rounded-md border border-input bg-background focus:outline-hidden focus:ring-2 focus:ring-primary  resize-none"
+                  className="w-full px-4 py-4 rounded-md border border-input bg-background focus:outline-hidden focus:ring-2 focus:ring-primary  resize-none"
                   placeholder="hello, i would like to talk about..."
                 />
               </div>
               <button
                 type="submit"
                 className={cn(
-                  "cosmic-button ml-9 w-90 flex items-center justify-center gap-2 mb-3",
+                  "cosmic-button w-90 ml-6 flex items-center justify-center gap-2 mb-3",
                 )}
               >
                 Send Message
