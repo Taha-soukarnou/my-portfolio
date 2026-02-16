@@ -25,7 +25,6 @@ const skills = [
 
   //==== Tools and IDEs
   { name: "Git/GitHub", level: 80, category: "tools" },
-  { name: "Docker", level: 65, category: "tools" },
   { name: "Figma", level: 75, category: "tools" },
   { name: "VS Code", level: 85, category: "tools" },
   { name: "Eclipse", level: 75, category: "tools" },
