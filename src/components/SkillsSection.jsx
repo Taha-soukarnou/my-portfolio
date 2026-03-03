@@ -53,7 +53,7 @@ const SkillsSection = () => {
               className={cn(
                 "px-5 py-2 rounded-full transition-colors duration-300 capitalize",
                 activeCategory === Category
-                  ? "bg-primary text-primary-foreground"
+                  ? "bg-primary text-black"
                   : "bg-secondary/70 text-foreground hover/bd-secondary",
               )}
             >
